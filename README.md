@@ -9,3 +9,5 @@ To ensure this repo stays as close to the original repo as possible, it is impor
 1. git remote add upstream https://github.com/SeleniumHQ/docker-selenium.git
 2. git fetch upstream
 3. git rebase upstream/trunk
+4. Deal with any merge conflicts
+5. git push --force-with-lease
