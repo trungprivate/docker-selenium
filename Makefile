@@ -30,9 +30,10 @@ all: hub \
 	video
 
 basic: hub \
-	chrome
-	edge
-	firefox
+	chrome \
+	edge \
+	firefox \
+	docker \
 
 build: basic
 
