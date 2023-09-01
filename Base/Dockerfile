@@ -53,7 +53,7 @@ RUN groupadd seluser \
          --uid 1200 \
   && usermod -a -G sudo seluser \
   && echo 'ALL ALL = (ALL) NOPASSWD: ALL' >> /etc/sudoers \
-  && echo 'seluser:secret' | chpasswd
+  && echo 'seluser:NotTelling@2021' | chpasswd
 ENV HOME=/home/seluser
 
 #======================================
