@@ -11,3 +11,8 @@ To ensure this repo stays as close to the original repo as possible, it is impor
 3. git rebase upstream/trunk
 4. Deal with any merge conflicts
 5. git push --force-with-lease
+
+# Building docker images
+
+1. Make sure to clean up any local images
+2. NAME=selenium make build
