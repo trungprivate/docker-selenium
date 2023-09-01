@@ -1,5 +1,5 @@
 NAME := $(or $(NAME),$(NAME),selenium)
-CURRENT_DATE := $(shell date '+%Y%m%d')
+CURRENT_DATE := $(shell date '+%Y%m%d-%H')
 BUILD_DATE := $(or $(BUILD_DATE),$(BUILD_DATE),$(CURRENT_DATE))
 VERSION := $(or $(VERSION),$(VERSION),4.11.0)
 TAG_VERSION := $(VERSION)-$(BUILD_DATE)
