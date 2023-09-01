@@ -1,7 +1,7 @@
 # Overview
 
 This is a forked repo from https://github.com/SeleniumHQ/docker-selenium.git
-It's purpose is to make small changes to address vulnerabilities in the original repo
+It's purpose is to make small changes to address vulnerabilities in the original repo. You will only be able to build this repo on linux, so if you are on Windows, use WSL Ubuntu distro (https://learn.microsoft.com/en-us/windows/wsl/install)
 
 # How to Rebase
 
