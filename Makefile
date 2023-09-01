@@ -29,8 +29,12 @@ all: hub \
 	standalone_docker \
 	video
 
+basic: hub \
+	chrome
+	edge
+	firefox
 
-build: all
+build: basic
 
 ci: build test
 
