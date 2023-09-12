@@ -9,9 +9,9 @@ import time
 
 # set environment variables
 nodegraceperiodseconds=300
-username = "sonar"
-password = "sonar"
-base_endpoint = "http://grid.aks2.sonarazure.com.au"
+username = "admin"
+password = "NotTelling2021"
+base_endpoint = f"https://{username}:{password}@grid.aks.sonarazure.com.au"
 frequency=60
 
 # Configure logging
